@@ -18,7 +18,7 @@ export default function Form({todos,setTodos}){
           onChange={(e) => setTodo(e.target.value)} 
           value={todo} 
           className="input" 
-          placeholder="Enter a new task"
+          placeholder="Enter a new task "
         />
         <button type="submit" className="button">Add</button>
       </form>
