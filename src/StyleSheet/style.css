@@ -1,0 +1,66 @@
+.header{
+    color: white;
+    font-family: sans-serif;
+    font-size: 22px;
+    background: black;
+    margin: 0 auto;
+    padding: 0.5em;
+    border-radius: 4px;
+    text-align: center;
+    width: 50%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+.myForm{
+    padding: 0.5em;
+    display: flex;
+    width: 450px;
+    margin: 0 auto;
+    border: 2px solid #e7e7e7;
+    margin-top: 1em;
+    border-radius: 4px;
+
+}
+.input{
+    padding: 1em;
+    margin: 0 auto;
+    border: none;
+}
+.input:focus{
+    border: none;
+}
+.button{
+    padding: 1em;
+    background: green;
+    border-radius: 100%;
+    font-weight: 600;
+    color: white;
+    border: none;
+    margin: 0 auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+button{
+    cursor: pointer;
+}
+ .li{
+    margin: 0 auto;
+    padding: 0.2em;
+    width: 30%;
+}
+.li{
+    color: rgb(1, 1, 1);
+    justify-content: space-between;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 0.5em;
+}
+.ul{
+    justify-content: space-between;
+}
+.li + .li{
+    margin-top: 1em;
+}
+.delete{
+    border: none;
+    background: none;
+    cursor: pointer;
+    float: right;
+}
